@@ -10,7 +10,7 @@ import axios from "axios";
 import Graphs from "./components/Graphs";
 
 
-const BASE_URL = `http://data.fixer.io/api/latest?access_key=${YOUR_API_KEY}`
+const BASE_URL = `http://data.fixer.io/api/latest?access_key=f98d61b896c5e6b312ecf79b9f95079d`
 
 const page = () => {
   const isSmallScreen = useMediaQuery("(max-width: 660px)");
